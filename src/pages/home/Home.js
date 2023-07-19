@@ -4,7 +4,7 @@ import Cart from "../../components/Cart/Cart";
 import "./home.css";
 import bg from "../../assets/IMG.png";
 import { NavLink } from "react-router-dom";
-import ListLogements from "../../Data/ListLogemens.json";
+
 
 function Home() {
   const [logements, setLogements] = useState([]);

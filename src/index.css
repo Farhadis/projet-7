@@ -48,16 +48,6 @@ code {
   flex-wrap: wrap;
 }
 
-/* .logo{
-  display: flex;
-  flex-direction: row;
-  font-size: 48px;
-}
-
-.logo img{
-  width: 25px;
-} */
-
 
 
 
@@ -66,7 +56,6 @@ code {
 @media  (max-width: 992px) {
   body {
     min-width: 768px;
-    /* padding: 0 30px;     */
   }
 
   .container {
