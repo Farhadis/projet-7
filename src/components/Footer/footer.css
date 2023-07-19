@@ -1,0 +1,30 @@
+.footer {
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p,
+h2 {
+  color: white;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  body {
+    min-width: 320px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .logo-footer {
+    justify-content: center;
+    margin-left: 20%;
+    margin-top: 20px;
+  }
+}

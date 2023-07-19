@@ -1,0 +1,63 @@
+.carousel {
+  width: 80%;
+  height: 400px;
+  /* margin: auto; */
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.fleche-gauche {
+  position: absolute;
+  left: 12%;
+  top: 280px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.fleche-droite {
+  position: absolute;
+  right: 12%;
+  top: 280px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.nb-slide {
+  position: absolute;
+  text-shadow: black 1px 0 20px;
+  right: 47%;
+  top: 70%;
+  font-size: 20px;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+/* .... MOBILE ...... */
+
+@media (max-width: 768px) {
+  body {
+    min-width: 320px;
+    padding: 0px;
+    margin: 0px;
+  }
+  .carousel {
+    width: 90%;
+  }
+
+  .fleche-right,
+  .fleche-left {
+    width: 20px;
+  }
+
+  .nb-slide {
+    position: absolute;
+    text-shadow: black 1px 0 20px;
+    right: 49%;
+    top: 74%;
+    font-size: 14px;
+    color: white;
+  }
+}

@@ -1,0 +1,28 @@
+.tags {
+  background-color: #ff6060;
+  border-radius: 10px;
+  color: white;
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 10px;
+  min-width: 115px;
+  padding: 4px 10px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  body {
+    min-width: 320px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .tags {
+    border-radius: 8px;
+    font-size: 10px;
+    margin-right: 10px;
+    min-width: 70px;
+    padding: 4px 10px;
+    text-align: center;
+  }
+}

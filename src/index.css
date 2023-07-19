@@ -1,0 +1,107 @@
+
+
+
+
+body {
+   min-width: 992px;
+  padding: 0px;
+  max-width: 1400px; 
+  margin: auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  
+  padding: 0;
+  margin: 0; 
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  margin: 0%;
+  padding: 0%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-row-wrap{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* .logo{
+  display: flex;
+  flex-direction: row;
+  font-size: 48px;
+}
+
+.logo img{
+  width: 25px;
+} */
+
+
+
+
+/*..... TABLETTE.................................. */
+
+@media  (max-width: 992px) {
+  body {
+    min-width: 768px;
+    /* padding: 0 30px;     */
+  }
+
+  .container {
+  
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+  }
+
+
+
+
+}
+
+
+
+/*..... MOBILE.................................. */
+
+@media (max-width: 768px) {
+  body{
+    min-width: 320px;
+    padding: 0px;
+    margin: 0px;
+    
+  }
+
+  .container {
+    width: 100%;
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+  }
+
+  .main{
+    width: 100%;
+}
+
+}

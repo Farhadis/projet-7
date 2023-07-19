@@ -1,0 +1,28 @@
+.main-apropos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: auto;
+   
+   
+}
+
+
+/*  MOBIL .......... */
+@media (max-width: 768px) {
+    body{
+      min-width: 320px;
+      padding: 0px;
+      margin: 0px;      
+    }
+
+    .main{
+        width: 95%;
+    }
+
+    .main-apropos{
+        width: 90%;
+    }
+}

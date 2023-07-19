@@ -1,0 +1,197 @@
+.main-loge {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.main-collapse-loge {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.collapses-loge {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.collapse-loge {
+  width: 48%;
+}
+
+.titre-loge {
+  width: 100%;
+  margin: auto;
+}
+
+.titre {
+  color: #ff6060;
+  font-size: 27px;
+  font-weight: 450;
+  margin: 20px 0 10px 0;
+}
+
+.titre-loge p {
+  color: #ff6060;
+  font-size: 18px;
+  margin-top: 0;
+  font-weight: 450;
+}
+
+.main-tags-loge {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* .etoiles-loge{
+    display: flex;
+    flex-direction: row;
+    
+} */
+
+.main-etoiles {
+  width: 100%;
+}
+
+.etoile {
+  padding: 0 5px;
+  width: 20px;
+}
+
+.gris {
+  filter: opacity(20%);
+}
+
+.rouge {
+  filter: saturate(4);
+  opacity: 70%;
+}
+
+.host-etoiles {
+  width: 30%;
+  margin: auto;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 20px;
+  align-items: end;
+}
+
+.etoiles-loge {
+  width: 25%;
+  display: flex;
+  justify-content: right;
+  align-items: end;
+}
+
+.titre-tags {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.titre-host {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.host {
+  display: flex;
+
+  align-items: center;
+}
+
+.host-img {
+  height: 60px;
+  border-radius: 50%;
+}
+
+.host-nom {
+  font-size: 20px;
+  padding-right: 20px;
+  color: #ff6060;
+}
+
+/* .... MOBILE ....... */
+
+@media (max-width: 768px) {
+  body {
+    min-width: 320px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .main-loge {
+    width: 90%;
+    flex-direction: column;
+  }
+  .host-etoiles {
+    width: 100%;
+    margin: 10px 0;
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .main-tags-loge {
+    width: 90%;
+    margin-top: 0;
+  }
+
+  .main-collapse-loge {
+    width: 90%;
+  }
+
+  .titre-tags {
+    width: 100%;
+  }
+
+  .titre-loge {
+    width: 100%;
+    margin: auto;
+  }
+
+  .host-img {
+    height: 50px;
+  }
+
+  .titre-host {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+
+  .collapses-loge {
+    width: 90%;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .collapse-loge {
+    width: 100%;
+  }
+
+  .host-nom {
+    font-size: 16px;
+    padding-right: 10px;
+  }
+
+  .etoiles-loge {
+    width: 34%;
+  }
+}
